@@ -1,0 +1,28 @@
+Goldbach Lab v03 first-interior scan
+====================================
+
+Generated: 2026-06-11 00:55:31
+Mode: first-interior
+Backend: dense
+Start N: 4
+Stop N: 10000000000
+Even N tested: 4999999999
+Interior positive: 4999999998
+Boundary positive: not computed except failures
+Boundary-only: 1
+No representation found: 0
+
+Worst first interior x case: N=9997348832, z=99986, first pair=(102673,9997246159), offset=2687, ratio=1.02687376233
+Worst first-x offset above sqrt(N): N=9265570214, z=96257, first pair=(99721,9265470493), offset=3464, ratio=1.03598699315
+Worst first_x/z ratio: N=68, z=8, first pair=(31,37), offset=23, ratio=3.875
+
+Output files:
+goldbach_to_10B_v03_first_interior_records.csv
+goldbach_to_10B_v03_failures.csv
+
+Timing seconds:
+sieve/build: 85.2197
+scan: 11538.8
+total: 11624
+
+Note: This scan tests first complete-sieve interior Goldbach pairs x>N^0.5 and N-x>N^0.5.
