@@ -147,4 +147,4 @@ This repository is computational and diagnostic. It does not prove Goldbach. It 
   https://zenodo.org/records/20617961
 
 - Goldbach Survivor-Gap Problem: Complete-Sieve Interior, Two-Cloud Survivor Masks, and Computational Validation  
-  Add Zenodo record URL and DOI after upload.
+  https://zenodo.org/records/20660792
